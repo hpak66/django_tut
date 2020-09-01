@@ -1,0 +1,93 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLOWED_HOSTS	mysite/settings.py	/^ALLOWED_HOSTS = ['*']$/;"	v
+AUTH_PASSWORD_VALIDATORS	mysite/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+AppConfig	polls/apps.py	/^from django.apps import AppConfig$/;"	i
+BASE_DIR	mysite/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+Choice	polls/admin.py	/^from .models import Question, Choice$/;"	i
+Choice	polls/models.py	/^class Choice(models.Model):$/;"	c
+DATABASES	mysite/settings.py	/^DATABASES = {$/;"	v
+DEBUG	mysite/settings.py	/^DEBUG = True$/;"	v
+Http404	polls/views.py	/^from django.http import Http404$/;"	i
+HttpResponse	mysite/views.py	/^from django.http import HttpResponse$/;"	i
+HttpResponse	polls/views.py	/^from django.http import HttpResponse$/;"	i
+INSTALLED_APPS	mysite/settings.py	/^INSTALLED_APPS = [$/;"	v
+LANGUAGE_CODE	mysite/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+MIDDLEWARE	mysite/settings.py	/^MIDDLEWARE = [$/;"	v
+Migration	polls/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+PollsConfig	polls/apps.py	/^class PollsConfig(AppConfig):$/;"	c
+Question	polls/admin.py	/^from .models import Question, Choice$/;"	i
+Question	polls/models.py	/^class Question(models.Model):$/;"	c
+Question	polls/views.py	/^from .models import Question$/;"	i
+ROOT_URLCONF	mysite/settings.py	/^ROOT_URLCONF = 'mysite.urls'$/;"	v
+SECRET_KEY	mysite/settings.py	/^SECRET_KEY = '97)*0hhn3y9s99#=h@edqi3@1=kdacsf7(zca3i&*m3fct+ww9'$/;"	v
+STATIC_URL	mysite/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+StaticFilesHandler	mysite/wsgi.py	/^from django.contrib.staticfiles.handlers import StaticFilesHandler$/;"	i
+TEMPLATES	mysite/settings.py	/^TEMPLATES = [$/;"	v
+TIME_ZONE	mysite/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+TestCase	polls/tests.py	/^from django.test import TestCase$/;"	i
+USE_I18N	mysite/settings.py	/^USE_I18N = True$/;"	v
+USE_L10N	mysite/settings.py	/^USE_L10N = True$/;"	v
+USE_TZ	mysite/settings.py	/^USE_TZ = True$/;"	v
+WSGI_APPLICATION	mysite/settings.py	/^WSGI_APPLICATION = 'mysite.wsgi.application'$/;"	v
+__str__	polls/models.py	/^    def __str__(self):$/;"	m	class:Choice	file:
+__str__	polls/models.py	/^    def __str__(self):$/;"	m	class:Question	file:
+admin	mysite/urls.py	/^from django.contrib import admin$/;"	i
+admin	polls/admin.py	/^from django.contrib import admin$/;"	i
+app_name	polls/urls.py	/^app_name = 'polls'$/;"	v
+application	mysite/asgi.py	/^application = get_asgi_application()$/;"	v
+application	mysite/wsgi.py	/^application = StaticFilesHandler(get_wsgi_application())/;"	v
+choice_text	polls/models.py	/^    choice_text = models.CharField(max_length=200)$/;"	v	class:Choice
+datetime	polls/models.py	/^import datetime$/;"	i
+db	polls/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	i
+deletion	polls/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	i
+dependencies	polls/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+detail	polls/views.py	/^def detail(request, question_id):$/;"	f
+django	polls/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	i
+execute_from_command_line	manage.py	/^        from django.core.management import execute_from_command_line$/;"	i
+fields	polls/migrations/0001_initial.py	/^            fields=[$/;"	v	class:Migration
+get_asgi_application	mysite/asgi.py	/^from django.core.asgi import get_asgi_application$/;"	i
+get_object_or_404	polls/views.py	/^from django.shortcuts import render, get_object_or_404$/;"	i
+get_wsgi_application	mysite/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	i
+include	mysite/urls.py	/^from django.urls import path, include$/;"	i
+index	polls/views.py	/^def index(request):$/;"	f
+initial	polls/migrations/0001_initial.py	/^    initial = True$/;"	v	class:Migration
+loader	polls/views.py	/^from django.template import loader$/;"	i
+main	manage.py	/^def main():$/;"	f
+mainsite	mysite/views.py	/^def mainsite(request):$/;"	f
+migrations	polls/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	i
+models	polls/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	i
+models	polls/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	i
+models	polls/models.py	/^from django.db import models$/;"	i
+name	polls/apps.py	/^    name = 'polls'$/;"	v	class:PollsConfig
+name	polls/migrations/0001_initial.py	/^            name='Question',$/;"	v	class:Migration
+name	polls/migrations/0001_initial.py	/^            name='choice',$/;"	v	class:Migration
+operations	polls/migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+os	manage.py	/^import os$/;"	i
+os	mysite/asgi.py	/^import os$/;"	i
+os	mysite/settings.py	/^import os$/;"	i
+os	mysite/wsgi.py	/^import os$/;"	i
+owner	polls/views.py	/^def owner(request):$/;"	f
+path	mysite/urls.py	/^from django.urls import path, include$/;"	i
+path	mysite/wsgi.py	/^path = '\/Users\/ak\/Dropbox\/Learn_ProgramEx\/Python\/Django\/mysite'$/;"	v
+path	polls/urls.py	/^from django.urls import path $/;"	i
+pub_date	polls/models.py	/^    pub_date = models.DateTimeField('date published')$/;"	v	class:Question
+question	polls/models.py	/^    question = models.ForeignKey(Question, on_delete=models.CASCADE)$/;"	v	class:Choice
+question_text	polls/models.py	/^    question_text = models.CharField(max_length=200)$/;"	v	class:Question
+render	mysite/views.py	/^from django.shortcuts import render$/;"	i
+render	polls/views.py	/^from django.shortcuts import render, get_object_or_404$/;"	i
+results	polls/views.py	/^def results(request, question_id):$/;"	f
+sys	manage.py	/^import sys$/;"	i
+sys	mysite/wsgi.py	/^import sys$/;"	i
+timezone	polls/models.py	/^from django.utils import timezone$/;"	i
+urlpatterns	mysite/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	polls/urls.py	/^urlpatterns = [$/;"	v
+views	mysite/urls.py	/^from . import views$/;"	i
+views	polls/urls.py	/^from . import views$/;"	i
+vote	polls/views.py	/^def vote(request, question_id):$/;"	f
+votes	polls/models.py	/^    votes = models.IntegerField(default=0)$/;"	v	class:Choice
+was_published_recently	polls/models.py	/^    def was_published_recently(self):$/;"	m	class:Question
